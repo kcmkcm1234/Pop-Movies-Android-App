@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#041911</color>
+    <color name="colorPrimaryDark">#00160D</color>
+    <color name="colorAccent">#FF7F50</color>
+    <color name="rating_star_color">#F1C40F</color>
+    <array name="refresh_colors">
+        <item>#FF7F50</item>
+    </array>
+</resources>

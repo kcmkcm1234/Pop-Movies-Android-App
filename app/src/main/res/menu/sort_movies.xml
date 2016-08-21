@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:menuCategory="system"
+        android:id="@+id/sort_order"
+        android:enabled="true"
+        android:visible="true"
+        android:checkableBehavior="single"
+        >
+        <item android:id="@+id/most_popular"
+            android:title="Most Popular"
+            android:visible="true"
+            android:icon="@drawable/star"/>
+
+        <item android:id="@+id/top_rated"
+            android:title="Top Rated"
+            android:visible="true"
+            android:icon="@drawable/like"/>
+
+        <item android:id="@+id/favourites"
+            android:title="Favorites"
+            android:visible="true"
+            android:icon="@drawable/star"/>
+    </group>
+
+</menu>

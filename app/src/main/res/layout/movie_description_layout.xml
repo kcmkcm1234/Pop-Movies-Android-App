@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:elevation="0dp"
+    tools:showIn="@layout/content_details">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/movie_information_layout"
+            android:background="#00FFFFFF"
+            android:elevation="0dp"
+            android:id="@+id/movie_desription_layout">
+
+            <com.pixplicity.multiviewpager.MultiViewPager
+                android:id="@+id/trailer_video_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:matchChildWidth="@+id/trailer_item_first_child"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            <TextView
+                style="@style/MovieDescritpitonTopViewStyle"
+                android:id="@+id/overview_label_text_view"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_below="@id/trailer_video_view_pager"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:text="@string/overview_label_string"
+                android:paddingLeft="@dimen/text_margin"
+                android:paddingRight="@dimen/text_margin"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                style="@style/MovieDescriptionStyle"
+                android:layout_below="@id/overview_label_text_view"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_margin"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/movie_overview_text_view"
+                />
+
+            <TextView
+                style="@style/MovieDescriptionStyle"
+                android:id="@+id/reviews_label_text_view"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_below="@id/movie_overview_text_view"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/text_margin"
+                android:paddingRight="@dimen/text_margin"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:text="@string/reviews_label_string"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@+id/reviews_label_text_view"
+                android:id="@+id/movie_reviews_list"
+                style="@style/MovieDescriptionStyle"
+                android:layout_height="450dp"
+                android:paddingLeft="@dimen/text_margin"
+                android:paddingRight="@dimen/text_margin"
+                android:layout_centerHorizontal="true"
+                app:layoutManager="LinearLayoutManager"
+                >
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

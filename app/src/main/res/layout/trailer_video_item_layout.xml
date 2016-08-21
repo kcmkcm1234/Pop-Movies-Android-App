@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/trailer_item_first_child"
+        style="@style/TrailerItemStyle"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#77041911">
+            <com.google.android.youtube.player.YouTubeThumbnailView
+                android:id="@+id/trailer_youtube_thumbnail_view"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="match_parent"/>
+            <ImageButton
+                android:id="@+id/play_youtube_trailer_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:elevation="5dp"
+                android:src="@drawable/play_trailer_button"
+                android:visibility="visible"
+                android:background="#00ffffff"/>
+            <FrameLayout
+                android:id="@+id/youtube_trailer_frame_layout"
+                android:layout_width="match_parent"
+                android:elevation="6dp"
+                android:layout_margin="1px"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/share_trailer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share_trailer_string"
+            android:layout_gravity="right"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:paddingRight="@dimen/text_margin"
+            android:paddingLeft="@dimen/text_margin"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/share_button_back"/>
+
+    </LinearLayout>
+</RelativeLayout>

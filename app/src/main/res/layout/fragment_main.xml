@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.hp.popmovies.MainActivity$PlaceholderFragment">
+
+    <ProgressBar
+        android:id="@+id/loadingAnimation"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"/>
+
+    <LinearLayout
+        android:id="@+id/empty_favorites_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="50dp"
+        android:visibility="invisible"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/error_icon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/heart_thin"
+            android:tint="@color/colorAccent"/>
+        <TextView
+            android:id="@+id/error_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:text="@string/no_movies_favorited_string"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pop_movies_grid_view"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>
