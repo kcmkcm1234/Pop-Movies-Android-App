@@ -197,6 +197,8 @@ public class YoutubeTrailerFragment extends YoutubeFailureRecoveryFragment imple
 
             }
             this.youTubePlayer = youTubePlayer;
+            youTubePlayer.setShowFullscreenButton(false);
+            //youTubePlayer.setFullscreenControlFlags(YouTubePlayer.FULLSCREEN_FLAG_CONTROL_SYSTEM_UI);
         }
     }
 
