@@ -3,6 +3,7 @@ Popular Movies Android Application which uses TheMovieDB as a datasource.
 
 This application has the following features
 
+- Uses Material Design Concepts 
 - A Gridview of the Most Popular, Top Rated and Favorited movies seperted using tabs
   ![Movies Grid](https://lh3.googleusercontent.com/XWARWlteObWzh5gVs4V_Jq4IHygPkSY6YfUl3lBkgdBVkEtc6Wxv9OBVGlH53LWOvyl7nRv1TzX_HEtqEiHU2aGeVc9Ap8kE6ExnLmiXrk0ssUHF6o_6ken1VYzXbNCxW3_XXL3rfs_RW7qvdus4pfk0Z_mwsjqwpj801tEPZQUZFajVqhlQCEVta6KekjwG-OrDqTzXoU4JvfYCVUUk1kM1tyLdQXjPon8ijVGdoYzmagYiswmaJNObdVTsicAHKZXpr9isT_vTl0onAIrQeVP3V9CwOYvVR-M2OfTumJXUf8J1HPx-11d6FYImRBdMgkaK1WiVQavhxMkd40fnpqgLmLRv33RX6mCf-oDY9lDo1BPR9CgKRw-OHHmNtbKXVA25jhETFc5EJ247TFN-qbiobophojk4KjT9h1r5AHF8fpcyAf6YT_Xycy0y0bywM6QfNmF1Cr7mRDW70WUoNDCell2RMOZKxP8PLoTBGa6STMUGqbUQb76Gdw5L4r7wE3ejnI_R6jO6odWwW4Y0VXwbf7ZrOZic-LNXt5t4FxlgaatAmYRmSmFUQ25YUS3HGfhsQbRWEL1xOJ0TRZM6IgauiXO2o_ENco0WmgEIGMZGz2so=w376-h667-no "Movies Grid")
 - A details screen in which one can view information about the movie, its trailers and it reviews. The color of the details layout is   adjusted based on the accent color of the movie poster.
