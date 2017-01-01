@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="#1d2f28"
+    android:background="@color/colorPrimaryLight"
     tools:context="com.example.hp.popmovies.MainActivity">
 
     <android.support.design.widget.AppBarLayout
