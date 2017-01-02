@@ -1,4 +1,4 @@
-# **Pop-Movies:**    ![](https://github.com/muddassir235/Pop-Movies/blob/master/Files/1483329047_filmreel.png?raw=true)![](http://navyuginfo.com/wp-content/uploads/2014/11/Android-logo-1.png)![](https://www.themoviedb.org/assets/41bdcf10bbf6f84c0fc73f27b2180b95/images/v4/logos/91x81.png)
+# **Pop-Movies:**    ![](https://github.com/muddassir235/Pop-Movies/blob/master/Files/1483354684_filmreel.png?raw=true)![](https://github.com/muddassir235/Pop-Movies/blob/master/Files/1483354836_android.png?raw=true)![](https://github.com/muddassir235/Pop-Movies/blob/master/Files/theMovieDB_logo.png?raw=true)
 Popular Movies Android Application which uses TheMovieDB as a datasource.
 
 # **Overview:**
