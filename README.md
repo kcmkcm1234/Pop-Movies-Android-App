@@ -1,16 +1,55 @@
-# Pop-Movies
-Popular Movies Android Application which uses TheMovieDB as a datasource. 
+# **Pop-Movies:**    ![](https://github.com/muddassir235/Pop-Movies/blob/master/Files/1483329047_filmreel.png?raw=true)![](http://navyuginfo.com/wp-content/uploads/2014/11/Android-logo-1.png)![](https://www.themoviedb.org/assets/41bdcf10bbf6f84c0fc73f27b2180b95/images/v4/logos/91x81.png)
+Popular Movies Android Application which uses TheMovieDB as a datasource.
+
+# **Overview:**
 
 This application has the following features
 
-- Uses Material Design Concepts 
-- A Gridview of the Most Popular, Top Rated and Favorited movies seperted using tabs
-  ![Movies Grid](https://lh3.googleusercontent.com/XWARWlteObWzh5gVs4V_Jq4IHygPkSY6YfUl3lBkgdBVkEtc6Wxv9OBVGlH53LWOvyl7nRv1TzX_HEtqEiHU2aGeVc9Ap8kE6ExnLmiXrk0ssUHF6o_6ken1VYzXbNCxW3_XXL3rfs_RW7qvdus4pfk0Z_mwsjqwpj801tEPZQUZFajVqhlQCEVta6KekjwG-OrDqTzXoU4JvfYCVUUk1kM1tyLdQXjPon8ijVGdoYzmagYiswmaJNObdVTsicAHKZXpr9isT_vTl0onAIrQeVP3V9CwOYvVR-M2OfTumJXUf8J1HPx-11d6FYImRBdMgkaK1WiVQavhxMkd40fnpqgLmLRv33RX6mCf-oDY9lDo1BPR9CgKRw-OHHmNtbKXVA25jhETFc5EJ247TFN-qbiobophojk4KjT9h1r5AHF8fpcyAf6YT_Xycy0y0bywM6QfNmF1Cr7mRDW70WUoNDCell2RMOZKxP8PLoTBGa6STMUGqbUQb76Gdw5L4r7wE3ejnI_R6jO6odWwW4Y0VXwbf7ZrOZic-LNXt5t4FxlgaatAmYRmSmFUQ25YUS3HGfhsQbRWEL1xOJ0TRZM6IgauiXO2o_ENco0WmgEIGMZGz2so=w376-h667-no "Movies Grid")
-- A details screen in which one can view information about the movie, its trailers and it reviews. The color of the details layout is   adjusted based on the accent color of the movie poster.
+- Uses Material Design Concepts
+- A Gridview of the _Most Popular_, _Top Rated_ and _Favorite_ movies separated using tabs.
+- Data and posters are provided by the database.
+- When a certain movie is clicked, its detailed are provided in the Detail Screen which is themed according to the accent color of the movie poster.
 
-  ![Details Star Trek 1](https://lh3.googleusercontent.com/kiGB9We8Gpc-SKYr_9gBdnXZHL8LdL0dNx5GR-tY128rjmMOEtAvSNog8M4plAIr6vz2X83w01pqMeo3OZGzK8YzQqbFrM09pa-J7NGCND5l8oCe4BF-oKsJUos1tixn1MtjQxoqFOGnQqkr0Fws5CuSYPP6u5fXE2tMf4yuogq5GpDMtx7wP2A6TXEMoIp2n5X0H23b2Rrv0fbpnI-7JyQtfFYsPC88Bg0UCMUjURYyxsz5y3viHR-GYQ-SL8da6XXt0MEDA6BFC07VJs1mHTaYt5faGSJLq0NE7Ntiz6nTrajJekAhW_9gL_zc22cegrPeE6UB8oPhlpG3ApQyT51x4X1M3ikH_yGj8XPfXNPZBwth0KZojVy9QWgkBCuHmJoq-ilODHOHGf6mMKEc2QQDJt88jytsVEl_BENXc8Dqdod8tx5Lky3ijhEjR5dRNQPyK_KARhI35u8swt6z7qzOVM7bRI3JkICG6HVXT2NHefM4RY90ORe9KAyxUxargsw4lRGmwG_ZI9w_YdKvjZ5mlFnwzT0GOb9AQPC4h8tCmz9J-xqUNvqgxz0UkB0kO9dszrbQX4ydRkJ56JjRoBYAIDiO-b5BKR-pZ6IpMOZkTQOc=w376-h667-no)
-  ![Details Star Trek 2](https://lh3.googleusercontent.com/_fk5NJpk_4nT-ADlU9otflmSraIkmkid6DSQzA2UbIZPYe0b3a_vAxa8nTcGQCZaPMDbs_sAnwDLo_qzJQg7SI4RlMKYRnoaHh4RhYvYDNN-sDwUf_3LcscPX-SHrzZgPNzyeayrLI1CgAeFe2iw4gZXwc4E563W3vvGRh30utYygOS93mQpOJrniCZZamR-CWWJIdKuvvVyt_71sbOkXMd3HqzFgWlYlxy_2QTOuVDxFcoAr4gmMT_QTswzfYjsDCwYT9QWroRp_O67tRWjc_bEDYJAyJM5aEX8H9NgxRjYcFqds_gyrFeQECh7t0YMiUwFzDxu7AA8RmKuuCo61oYrmSNtmpGIdDcAsmO6wYPMzzj6sIv3cPXQcghBdVjPsUxLpW78RcL4jB504VmfEhK-d62QVEcw9HZS33Ii-EN4Fg4oHk4VM3029zIH0PMmI91C_9Nko9w0tv0AAVXa37-9VsVQ7dnrOMAOAxlz_tJ527JRRXcBOJEOQNxE9KXFn5NZib4BV4tCMWmy2edk9E8fwT5KLIkGA6SjJCYRwtph5gNRTOL2MVJtcxrJubLFYf3SCkuKZF46gOV65Ds1GIk-jDIJhhJAeszPlmY3Whs3lCf7=w376-h667-no)
-  ![Details Star Trek 3](https://lh3.googleusercontent.com/CO6eN_L4sTAkGYKRRTvAduFW2aXDtgrymTlKHAGfQ_xtDQI1XrmK4fPB9ozITX-P8g83lNMEuUmo7c82So4C6HS1qFCO3KcQJUtueuL-vCx1OfAFAukOruU8iHGnDLXiqdlsgS5AP4HIAlNBM9lT_n3kkFAeagMbhs5tkMMSuPjDogVnnsnXn9Ls6sGPfhXWWyhBWAmH4iQjP6kqK-h4Y_AWNQbfghdFFPswW5CzPgdc6lsaoBYH1wqVkeFLgPXgLUiuaMU5GOUqQYtawqQgdGYMuyaC9wbg5lae1dob6lbM9_t_xkZc5X5EPukBeigjqX0N3fGbfuDYqef8BhyYkCp2yUei4S6Ho1ewwkU54LvBm4klraB_EExfhar6SXHkbupO7cZj937cXrmcOsGQuPzBWPLt63TWm5xAUjaooTmnyi3vkI7V_HUHt2RtqrAq4-u96z-Cce7f9Ep1tLDJmNC-rIlEjBrQQ1JUXEwQdfKuUjD-38GPs3I3iI5X5T1uncrGH3eF93IEtVlk0m4qlJO0_4zigETImVsHDhO8oCzphJK3iwSlAAC5i39KEws4CkN313l5PdiEezBal3-3B6w6A1ZBokaw0XPhM_byj1rn31R3=w376-h667-no)
-  ![Details Jason Bourne 1](https://lh3.googleusercontent.com/3YayKajtYycNQQj3D8_ldS7CNoTxShugeBwzGWeQOK6-lcpdIcyH8vn0Cga_PHSLms6Dk505JPS9v_U-wA8AsIKwaR9JEYL-m2ohYZgN92ZNIF0nFX9ty-gjaYLSEmxE_ZdAwntknVYYxNHVCoo8dx7GaQ7szE0UY1pRh2jIrtAeeuXETLC65QJ32RxOm8rhVFDXjRKyaHD9falEItZ6tzww8woDultNiX7Rwkp1jBSzQlEW86Ueb1hpGnjh-VjFc_Wefst4MyzdZozB-XpSNoPp3dzBu6dP76egQyjV4tzyQ_IUI0IGNH3fWsylCiRq7Bg4xNf1KBevrDk3tSAThm298Qm-AAs6ZYPw1Y1D4nlBLF8npMpl2sUr0FLvZSCzxRBXuqlWhstOSU4v2fAKVNMX0cwI5wZw8GzSv8yveD4Dgd4XnYED1S5cHAsLem7TkLwyXO7sdxgSOe9pv3GKclnsNlU5x4qToTo_gBZjKO_q8YzW3uIOH-8OSiSCzgguTXuwdcQiU19CKzvuPDciftrFSYBMCvHrwoNNqbKeujsVCYz5DQMwwBV2tum694N11Hd_AJy90kF9gTxslPuWVSZRY06Mv4jf3yhRYsa4m6lCK0Jp=w376-h667-no)
-  ![Details Jason Bourne 2](https://lh3.googleusercontent.com/VRxRXLyXV0DEb3Ay396MuNhHWCDFWWBT9Klxfy8BKuyy_zX5fcFNCUL81M09xJnP2W3EtibcRk48elnb5h2T0fHSd0DDGQxT-dVBlLQkEUb_Qzsn5kOG-SbqcH-AgLHQTgsJ1rSFd1CvHtDAP15s84C-4XJBXwJ1wGG_bjxhvKWU4QlBM-CADYqPVolG0yqHNSMXrbQ9b_PJK5FCZ3nNE8VJvVOtEQv15SQWj4EamxaGdzyfIUB-6OjK1SgeOD7UvkEhEt26Y2Ym6Mc7WB4Bo-jf__HmC2QitIht5WoD99Xv2pfT6z49QeuMwa5OpjMKzfz1tzLozLgkor3ltabagKP5xa3lZLb9qWu7178B_boGmxf794ZfLAbFbKEozL3wCo2OTvyvninYBqtUC-C8-OKCoErdJKSgV8prpDHNc3dfZ0lVISNRkMgfQ8YzJvhlCQLBHoIisBpMPHdUg9dRaTNMG5j8yHQFkx0_qO4H5BOMeHwqAud_Q4RV4ESHuYniEYeZv34b153WpHhA_X5c-q9PBl4q2hkdb-D9YtLvNN1D0G5Q6kRtRbKPlSP23XSvlZG27tY8LavxbAMdAIMgMIlSkK2xf8mIHtgpNE3iD_xlJAOp=w376-h667-no)
-  ![Details Jason Bourne 3](https://lh3.googleusercontent.com/67pec9JuImx8Ixxpxrrvx5nubHS7-9YHa2aoyTvDYlSCPzdzTvpd9Szo1AREeUPwzxOCUyKcIRLB_6Uy4HGTBz6sWYV_ggo59asA59tz8b2uCr4Re5ZZHRYhlaWCTS7LrVrVdBtag1hfIvBdFQcnz28XRFhxGKvppq_qP_ps4yHyykZkMztq7JEVdW9AVCVy9zj5GEweAh5ZhtIJ7GWKKHWWjxBHeDilYKxq59amvNDH4wk1-UryKz7iUsmeCB18tZNxeNo0nfRW3_ZIikg_ZKgFA4McWl4u8C7O-s5clQidUeNpjpN37U_ht6Nry74CwuVh9TedFcnv4htFIhppV6v7Rjv8_zN475xA0lPH222aVWWDUFwSftk3_guZ-w8JDIQdFu5H7Zy7B373T4JeXzV-aQl6SM0Ta8VGA4sCDmhBCGV5mAcAqqEj4vzmLaBhUaHfguEeJDgEkouKz8qyy_a_5u0kH7v0_Q4FQqi4pgVQHUtMSjo8FSp28tuAT--3mF7t91hVZT3hk4lay-6tjDhEZ23malkNq1KAZ8ZQ899_Mdo5l9yT3ZtgF7-hrEZhChUic5OL1R9Uc2TFSZ3oX8GvXsFmTO43ONBmEQtvgPnGsW6V=w376-h667-no)
+# **How it looks:**
+
+### **Phone:**
+##### _Portrait:_
+
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_20170102-002122.png?raw=true" width="270">
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_20170102-002339.png?raw=true" width="270">
+<img
+src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_20170102-002354.png?raw=true" width="270">
+
+
+##### _Landscape:_
+
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_20170102-010150.png?raw=true" width="500">
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_20170102-010201.png?raw=true" width="500">
+
+### **Tablet:**
+##### _Portrait:_
+
+
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_1483302623.png?raw=true" width="380">
+
+##### **Landscape:**
+
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_1483302609.png?raw=true" width="600">
+
+## **APK (Installation file):** [app_release.apk](https://github.com/muddassir235/Pop-Movies/blob/master/Files/app-release.apk)
+
+Please enable third party app installation from your device's setting in order to install this application.
+
+## **How to contribute:**
+
+* Fork this project
+* Clone it to your local computer
+
+  `> git clone https://github.com/YOUR_GIT_USERNAME_HERE/Pop-Movies.git`
+
+* In your android studio go to File -> Open Project. A window will show up. In this window navigate to Pop-Movies project's root folder (i.e. the `......../Pop-Movies` folder) and open.
+* If necessary you may also need to update the gradle version for this project in the **Project level** `build.gradle` file.
+* Run the code, make your changes and share **:-)**
+
+## **License:**
+This android app is distributed under the Apache [license](https://github.com/muddassir235/Pop-Movies/blob/master/license.txt) 2.0.
