@@ -49,7 +49,8 @@ Please enable third party app installation from your device's setting in order t
 
 * In your android studio go to File -> Open Project. A window will show up. In this window navigate to Pop-Movies project's root folder (i.e. the `......../Pop-Movies` folder) and open.
 * If necessary you may also need to update the gradle version for this project in the **Project level** `build.gradle` file.
-* Run the code, make your changes and share **:-)**
+* Run the code and enjoy **:-)**
+* **If you would like to include your improvements in this repository feel free to make a pull-request.**
 
 ## **License:**
 This android app is distributed under the Apache [license](https://github.com/muddassir235/Pop-Movies/blob/master/license.txt) 2.0.
