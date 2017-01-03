@@ -23,18 +23,18 @@ src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_201
 
 ##### _Landscape:_
 
-<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_20170102-010150.png?raw=true" width="500">
-<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_20170102-010201.png?raw=true" width="500">
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_20170102-010150.png?raw=true" width="480">
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_20170102-010201.png?raw=true" width="480">
 
 ### **Tablet:**
 ##### _Portrait:_
 
 
-<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_1483302623.png?raw=true" width="380">
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_1483302623.png?raw=true" width="360">
 
 ##### **Landscape:**
 
-<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_1483302609.png?raw=true" width="600">
+<img src="https://github.com/muddassir235/Pop-Movies/blob/master/Files/Screenshot_1483302609.png?raw=true" width="573">
 
 ## **APK (Installation file):** [app_release.apk](https://github.com/muddassir235/Pop-Movies/blob/master/Files/app-release.apk)
 
