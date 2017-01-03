@@ -45,8 +45,8 @@ Please enable third party app installation from your device's setting in order t
 * Fork this project
 * Clone it to your local computer
 
-  `> git clone https://github.com/YOUR_GIT_USERNAME_HERE/Pop-Movies.git`
-
+  `> git clone https://github.com/YOUR_GIT_USERNAME_HERE/Pop-Movies-Android-App.git`
+  
 * In your android studio go to File -> Open Project. A window will show up. In this window navigate to Pop-Movies project's root folder (i.e. the `......../Pop-Movies` folder) and open.
 * If necessary you may also need to update the gradle version for this project in the **Project level** `build.gradle` file.
 * Run the code and enjoy **:-)**
